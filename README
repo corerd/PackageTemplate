@@ -1,0 +1,33 @@
+PYTHON IMPORT
+=============
+
+package/
+    subpackage1/
+        module11.py
+        module12.py
+    subpackage2/
+        module21.py
+    module0.py
+
+project/
+    submoduleA/
+        moduleAA.py
+        moduleAB.py
+    launch.py
+
+
+Acknowledgments
+===============
+
+Sibling package imports
+    https://stackoverflow.com/questions/6323860/sibling-package-imports
+
+Relative imports for the billionth time
+    https://stackoverflow.com/questions/14132789/relative-imports-for-the-billionth-time/14132912#14132912
+
+Beyond top level package error in relative import
+    https://stackoverflow.com/a/47030746
+    https://stackoverflow.com/a/49480246
+
+Tired on sys.path hacks?
+    https://stackoverflow.com/a/50193944

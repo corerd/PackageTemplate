@@ -1,0 +1,27 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "options": {
+        "env": {
+            // PYTHONPATH: the same value as in .env file
+            "PYTHONPATH": "<path-to-packages-directory>"
+        }
+    },
+    "tasks": [
+        {
+            "label": "Python file",
+            "type": "shell",
+            // VS Code task and Python virtual environment
+            // See: https://stackoverflow.com/a/56067344
+            "command": "${config:python.pythonPath}",
+            "args": [
+                "${file}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
