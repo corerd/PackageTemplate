@@ -31,3 +31,6 @@ Beyond top level package error in relative import
 
 Tired on sys.path hacks?
     https://stackoverflow.com/a/50193944
+
+Use environment variables defined in `.env` file when running code in a terminal
+    https://github.com/Microsoft/vscode-python/issues/944#issuecomment-458774142
